@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "pinsManous:build:production"
+              "buildTarget": "pinsManous:build:production"
             },
             "development": {
-              "browserTarget": "pinsManous:build:development"
+              "buildTarget": "pinsManous:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "pinsManous:build"
+            "buildTarget": "pinsManous:build"
           }
         },
         "test": {
