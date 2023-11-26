@@ -11,6 +11,9 @@ import { AdminHomeComponent } from './admin-home/admin-home.component';
     LoginComponent,
     AdminHomeComponent
   ],
+  exports: [
+    LoginComponent
+  ],
   imports: [
     CommonModule,
     AdminRoutingModule
